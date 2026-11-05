@@ -14,7 +14,7 @@ interface Itemable
      *
      * @return Item
      */
-    public function item($name, Closure $callback = null);
+    public function item($name, ?Closure $callback = null);
 
     /**
      * Add Item instance to Group

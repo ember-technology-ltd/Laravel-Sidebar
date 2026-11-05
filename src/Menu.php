@@ -15,7 +15,7 @@ interface Menu extends Authorizable
      *
      * @return Group
      */
-    public function group($name, Closure $callback = null);
+    public function group($name, ?Closure $callback = null);
 
     /**
      * Add a Group instance to the Menu
