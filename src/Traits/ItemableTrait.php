@@ -21,7 +21,7 @@ trait ItemableTrait
      *
      * @return Item
      */
-    public function item($name, Closure $callback = null)
+    public function item($name, ?Closure $callback = null)
     {
         if ($this->items->has($name)) {
             $item = $this->items->get($name);
